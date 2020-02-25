@@ -1237,7 +1237,9 @@
   opacity: 1;
 }
 
-.emojiPicker-3m1S-j {
+.emojiPicker-3m1S-j,
+#bda-qem-twitch-container, 
+#bda-qem-favourite-container {
   background-color: #171717;
   box-shadow: none;
   border-radius: 0;
@@ -1259,6 +1261,36 @@
 
 .emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S {
   border-bottom-color: var(--primary-color);
+}
+
+#bda-qem button.active, #bda-qem button.active:hover {
+  background-color: var(--primary-color);
+  color: var(--word-color);
+}
+
+#bda-qem button:hover {
+  background: var(--primary-transparency);
+}
+
+#bda-qem button {
+  border-left: none;
+  background: rgba(0,0,0,.6);
+  box-shadow: none;
+  color: var(--word-color);
+}
+
+.diversitySelector-tmmMv0 .popout-2nUePc {
+  background-color: rgba(0,0,0,.4);
+  border: none;
+}
+
+.diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
+  background-color: rgba(0,0,0,.6);
+}
+
+#bda-qem {
+  background: none;
+  border-bottom: none!important;
 }
 
 .theme-dark .autocomplete-1vrmpx {
