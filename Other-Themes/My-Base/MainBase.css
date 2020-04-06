@@ -678,7 +678,8 @@
   border-right-color: var(--primary-color);
 }
 
-.lowMotionItem-1DvHia {
+.lowMotionItem-1DvHia,
+.wanderingCubesItem-WPXqao {
   background-color: var(--primary-color);
   width: 14px;
   border-radius: 10px;
@@ -1445,7 +1446,7 @@
   border: 2px solid var(--primary-color);
 }
 
-.voiceSectionAssets-1gjfmz, .callAvatarVoice-29N_wG {
+.voiceSectionAssets-1gjfmz, .videoAvatar-1ohPSC, .voiceAvatar-14IynY {
   border-radius: var(--avatar-radius);
 }
 
@@ -1459,31 +1460,26 @@
   color: white;
 }
 
-.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi {
+.border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
+.border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi {
   box-shadow: none;
   border: 5px solid var(--primary-color);
   border-radius: var(--avatar-radius);
 }
 
-.callAvatarStatus-3vMeXZ {
-  color: var(--word-color);
-}
 
-.callAvatarStatus-3vMeXZ.voice-3bPYC- {
+
+.status-1WEaea.voice-3bPYC- {
   border-radius: var(--button-radius);
   background-color: var(--primary-color);
 }
 
-.theme-dark .wrapper-29NfPK, .video-1FfuMD {
+.wrapper-2qzCYF {
   background-color: transparent;
 }
 
-.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
-  border-color: transparent;
-  background-color: rgba(0, 0, 0, .32);
-}
 
-.theme-dark .quickSelectPopout-X1hvgV {
+.quickSelectPopoutOption-opKBx9 {
   background: #121212;
   color: white;
 }
