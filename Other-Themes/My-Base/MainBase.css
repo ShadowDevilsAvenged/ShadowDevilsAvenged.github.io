@@ -947,6 +947,11 @@
   color: white;
 }
 
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  background-color: var(--primary-color);
+  color: var(--word-color);
+}
+
 .wrapper-2aW0bm {
   background-color: var(--primary-transparency);
   box-shadow: none;
