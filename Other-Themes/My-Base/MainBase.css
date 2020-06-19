@@ -1281,7 +1281,7 @@
   color: white;
 }
 
-.contentWrapper-2txmjs,
+.contentWrapper-SvZHNd,
 #bda-qem-twitch-container, 
 #bda-qem-favourite-container,
 .emojiPicker-3PwZFl {
@@ -1306,16 +1306,16 @@
   background: none;
 }
 
-.navButtonActive-3RPAJy.active, .navButtonActive-3RPAJy.active:hover {
+.navButtonActive-1MkytQ.active, .navButtonActive-1MkytQ.active:hover {
   background-color: var(--primary-color);
   color: var(--word-color);
 }
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
   background: var(--primary-transparency);
 }
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   border-left: none;
   background: rgba(0,0,0,.6);
   box-shadow: none;
