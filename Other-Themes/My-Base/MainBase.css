@@ -288,6 +288,10 @@
   background-color: rgba(0,0,0,.2);
 }
 
+.members-1998pB>div {
+    background-color: transparent;
+}
+
 .hasMore-3e72_v, .hasMoreButton-1MELpI {
   background-color: rgba(0,0,0,.26);
   border: 2px solid var(--primary-color);
