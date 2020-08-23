@@ -5,6 +5,11 @@
     background-size: cover;
 }
 
+.overflow-3zpvTV {
+    background-color: var(--primary-color);
+    color: var(--word-color);
+}
+
 .layers-3iHuyZ {
     background-color: var(--background-opacity);
 }
