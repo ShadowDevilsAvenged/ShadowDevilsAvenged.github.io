@@ -1754,7 +1754,7 @@
 }
 
 .cardPrimaryEditable-3KtE4g[style*="background-color"] {
-    background: linear-gradient(145deg, transparent 50%, rgba(226,161,49,1) 100%) !important;
+    background: linear-gradient(145deg, transparent 50%, var(--primary-transparency) 100%) !important;
     border: none;
 }
 
