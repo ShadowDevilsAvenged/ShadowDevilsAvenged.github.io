@@ -14,6 +14,14 @@
     background-color: var(--background-opacity);
 }
 
+.protip-1b9XPC {
+    border-top: none;
+}
+
+.autocompleteQuerySymbol-1kyGZ5 {
+    background-color: var(--primary-color);
+}
+
 .bg-h5JY_x,
 .theme-dark .layer-3QrUeG,
 .wrapper-1Rf91z,
@@ -189,6 +197,20 @@
 .theme-dark .root-1gCeng {
     background-color: black;
     box-shadow: none;
+}
+
+.input--jS-j2 {
+    background-color: transparent;
+}
+
+.container-UC8Ug1 {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: white;
 }
 
 .header-3ZP1MY {
@@ -698,6 +720,7 @@
     background-color: rgba(0, 0, 0, .4);
 }
 
+
 .diversityEmojiItem-L6_IXw:hover {
     background-color: black;
 }
@@ -707,7 +730,7 @@
     color: white;
 }
 
-.inspector-sdLnLS,
+.inspector-S2gM3e,
 .wrapper-2Gsate {
     background-color: transparent;
     overflow: visible;
@@ -1004,6 +1027,7 @@
     background-color: var(--primary-color);
     color: var(--word-color);
 }
+
 
 .headerSpotify-zpWxgT,
 .headerXbox-3G-4PF,
@@ -1501,7 +1525,7 @@
     border-radius: 3px;
 }
 
-.css-12qlrak-indicatorContainer {
+.css-eo20y5 {
     color: white;
     opacity: .7;
 }
@@ -1512,32 +1536,32 @@
 }
 
 .css-1a8reka-control:hover,
-.css-2yldzf-control:hover {
+.css-gvi9bl-control:hover {
     border-color: var(--primary-transparency);
 }
 
-.css-2yldzf-control {
+.css-gvi9bl-control {
     background-color: transparent;
     border-color: var(--primary-color);
 }
 
-.css-mhi7q3-placeholder {
+.css-o3gndj-placeholder {
     color: white;
     opacity: 1;
 }
 
-.css-n57xjs-menu {
+.css-3vaxre-menu {
     background-color: #0a0a0a;
     box-shadow: none;
     color: white;
     border-color: transparent;
 }
 
-.css-1aymab5-option {
+.css-1yz4bi9-option {
     color: white;
 }
 
-.css-1gnr91b-option {
+.css-rzbxvl-option {
     background: linear-gradient(145deg, rgba(0,0,0,1) 50%, var(--primary-transparency) 100%);
     color: white;
 }
@@ -1599,7 +1623,7 @@
     fill: white;
 }
 
-.theme-dark .selectorSelected-1_M1WV {
+.theme-dark .selected-1Tbx07 {
     background-color: transparent;
     border-top: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
@@ -1889,7 +1913,7 @@
     border: none;
 }
 
-.barBase-1c2Rfb {
+.theme-dark .newMessagesBar-265mhP {
     opacity: .85 !important;
     background-color: rgba(0, 0, 0, .8);
 }
