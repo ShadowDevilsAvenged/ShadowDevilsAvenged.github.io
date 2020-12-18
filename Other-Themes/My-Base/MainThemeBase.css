@@ -10,6 +10,27 @@
     color: var(--word-color);
 }
 
+.wrapper-2qzCYF {
+	background-color: transparent;
+	overflow: visible;
+}
+
+.tile-2naSqK {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.avatarWrapper-29j3CC {
+	border-radius: var(--avatar-radius);
+}
+
+.avatarWrapper-29j3CC foreignObject {
+	mask: none;
+}
+
+.avatarWrapper-29j3CC .avatar-VxgULZ {
+	border-radius: var(--avatar-radius);
+}
+
 .layers-3iHuyZ {
     background-color: var(--background-opacity);
 }
