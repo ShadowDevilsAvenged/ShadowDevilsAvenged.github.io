@@ -7721,7 +7721,7 @@ html * .username-_4ZSMR[changed-by-editusers="true"] *,html * .name-2WpE7M[chang
   -webkit-mask-size: 80% !important;
   -webkit-mask-position: 80% !important;
   -webkit-mask-repeat: no-repeat !important;
-  background-image: url(https://i.imgur.com/Q4oBokL.png) !important;
+  background-image: none !important;
   background-color: var(--Secondary-Main-Colour) !important;
   color: var(--Secondary-Main-Colour) !important;
   fill: var(--Secondary-Main-Colour) !important;
@@ -7769,11 +7769,7 @@ html * .username-_4ZSMR[changed-by-editusers="true"] *,html * .name-2WpE7M[chang
 /* 2019-09-10 */
 
 .sprite-2iCowe{
-  -webkit-mask: url('https://nfld99.com/images/StratoStillWave.png');
-}
-
-.sprite-2iCowe:hover{
-  -webkit-mask: url('https://nfld99.com/images/StratoGifWave.gif');
+  -webkit-mask: url('https://i.imgur.com/Q4oBokL.png');
 }
 
 .base-3dtUhz{
