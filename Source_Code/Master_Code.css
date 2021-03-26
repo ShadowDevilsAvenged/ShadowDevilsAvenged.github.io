@@ -4392,7 +4392,7 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
-.foldercontentopen>.scrollerWrap-1IAIlv {
+.foldercontentopen>.scrollerBase-289Jih {
   width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   padding-left: 5px;
@@ -4413,7 +4413,7 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
-.wrapper-3NnKdC .scrollerWrap-1IAIlv {
+.wrapper-3NnKdC .scrollerBase-289Jih {
   width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
@@ -5433,7 +5433,7 @@ html .upperBadge-2XnnGB.count {
   border-radius: 50%;
 }
 
-#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div:nth-child(1) > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-1IAIlv.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.pill-2uzAFe.wrapper-sa6paO {
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div:nth-child(1) > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerBase-289Jih.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.pill-2uzAFe.wrapper-sa6paO {
   display:none;
 }
 
@@ -5475,12 +5475,12 @@ html .upperBadge-2XnnGB.count {
   background: transparent;
 }
 
-.closedFolderIconWrapper-2sTcE6:hover > .guildIcon-GuAC7C{
+.closedFolderIconWrapper-2sTcE6:hover > .guildIcon-2Tpnad{
   filter: blur(0);
   /* transition: all 200ms; */
 }
 
-.closedFolderIconWrapper-2sTcE6 > .guildIcon-GuAC7C{
+.closedFolderIconWrapper-2sTcE6 > .guildIcon-2Tpnad{
   filter: blur(4px);
   /* transition: all 200ms; */
 }
@@ -5651,7 +5651,7 @@ html .upperBadge-2XnnGB.count {
   max-width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
 }
 
-.foldercontentopen>.scrollerWrap-1IAIlv {
+.foldercontentopen>.scrollerBase-289Jih {
   width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
   max-width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
 }
@@ -10571,7 +10571,7 @@ nav.wrapper-3NnKdC.guilds-1SWlCJ > ul > .scroller-1Bvpku > div[aria-label]:not([
   justify-content: center;
 }
 
-.tree-3tCaw8:focus{
+.tree-2wKJdG:focus{
   outline: none;
 }
 
