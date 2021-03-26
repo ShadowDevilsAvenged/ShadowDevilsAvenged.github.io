@@ -156,8 +156,8 @@
 
 .bg-h5JY_x,
 .theme-dark .layer-3QrUeG,
-.wrapper-1Rf91z,
-.scroller-2TZvBN {
+.wrapper-3NnKdC,
+.scroller-1Bvpku {
     background-color: transparent;
 }
 
@@ -173,7 +173,7 @@
     background-color: var(--primary-color);
 }
 
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
     background: none;
 }
 
@@ -181,18 +181,18 @@
     display: none;
 }
 
-.folder-21wGz3 {
+.folder-1hbNCn {
     background-color: rgba(0,0,0,.3) !important;
     border-radius: var(--avatar-radius);
 }
 
 .iconInactive-98JN5i,
 .icon-27yU2q,
-.folderIconWrapper-226oVY {
+.folderIconWrapper-1_bOZe {
     border-radius: var(--avatar-radius);
 }
 
-.expandedFolderBackground-2sPsd- {
+.expandedFolderBackground-1cujaW {
     background-color: rgba(0,0,0,.3);
     border-radius: var(--avatar-radius);
 }
@@ -309,12 +309,12 @@
     background-color: var(--primary-color);
 }
 
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-1QV--U.selected-ugP_am {
     color: var(--word-color);
     background-color: var(--primary-color);
 }
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
     border-radius: var(--button-radius);
     color: var(--primary-color);
     background-color: rgba(0, 0, 0, .7);
