@@ -1595,7 +1595,7 @@ svg[name="Nova_Download"]{
 /* Support For Horizontal Server List */
 
 .app {
-  --Guild-Columns: calc(26 / 17);
+  --guild-column-count: calc(26 / 17);
 }
 
 /* Support For Horizontal Server List */
@@ -4142,7 +4142,7 @@ svg[name="Nova_Download"]{
 }
 
 .app-2rEoOp {
-  --Guild-Columns: calc(26 / 17);
+  --guild-column-count: calc(26 / 17);
 }
 
 /* ======================================Canary fix for 2019-01-12 I hope====================================== */
