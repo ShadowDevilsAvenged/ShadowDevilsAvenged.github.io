@@ -2773,7 +2773,7 @@ svg[name="Nova_Download"]{
   background: transparent!important;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x>div>svg {
+.unreadMentionsIndicatorBottom-2mDYbI>div>svg {
   display: none;
 }
 
@@ -4381,7 +4381,7 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   border-radius: var(--Chat-Avatar-Border-Radius)!important;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh{
+.unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU{
   width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
@@ -5475,12 +5475,12 @@ html .upperBadge-2XnnGB.count {
   background: transparent;
 }
 
-.closedFolderIconWrapper-15K9MK:hover > .guildIcon-GuAC7C{
+.closedFolderIconWrapper-2sTcE6:hover > .guildIcon-GuAC7C{
   filter: blur(0);
   /* transition: all 200ms; */
 }
 
-.closedFolderIconWrapper-15K9MK > .guildIcon-GuAC7C{
+.closedFolderIconWrapper-2sTcE6 > .guildIcon-GuAC7C{
   filter: blur(4px);
   /* transition: all 200ms; */
 }
