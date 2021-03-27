@@ -1698,106 +1698,6 @@ svg[name="Nova_Download"]{
   background-color: var(--Secondary-Main-Colour)!important;
 }
 
-/* Support For Server Folders */
-
-/* Support For Server Folders 2 */
-
-.foldercontent {
-  background: var(--Background-Colour) !important;
-  border: 1px solid var(--Main-Colour) !important;
-}
-
-.wrapper-3NnKdC.foldercontent.foldercontentopen>div {
-  width: 60px!important;
-}
-
-.foldercontentopen>.scroller-wrap {
-  width: 50.5px!important;
-  padding-left: 5px;
-}
-
-.foldercontent {
-  width: 62px!important;
-  border-radius: 4px;
-}
-
-.wrapper-3Njo_c {
-  /* transition: all 900ms ease !important; */
-  border-right-width: 1px !important;
-  border-color: transparent !important;
-  border-style: solid !important;
-  width: 60px !important;
-  padding-top: 0px !important;
-}
-
-.container-1ETFDs.folder .badge-2_fwUZ.folder.count {
-  background: transparent !important;
-  border-color: transparent !important;
-  height: 10px !important;
-  top: 12.5px !important;
-  right: 5px !important;
-  left: 5px !important;
-  color: var(--Main-Colour) !important;
-}
-
-.wrapper-3NnKdC.folderopen .scroller-wrap {
-  overflow: visible !important;
-  width: 110px!important;
-}
-
-.wrapper-3NnKdC.folderopen .wrapper-3Njo_c {
-  overflow: visible !important;
-  width: 170px;
-}
-
-.wrapper-3NnKdC.folderopen {
-  overflow: visible !important;
-  width: 114.5px;
-}
-
-.layers-3iHuyZ.flex-vertical.flex-spacer>div>div>div.layer-3QrUeG>.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flexChild-faoVW3 {
-  display: none;
-}
-
-.layer-3QrUeG>.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6>.wrapper-3NnKdC.folderopen .scroller-wrap, .layer-3QrUeG>.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6>.wrapper-3NnKdC.folderopen .scroller-wrap.folderopen {
-  overflow: visible !important;
-  width: 110px!important;
-}
-
-.wrapper-3NnKdC.folderopen, .wrapper-3NnKdC.folderopen .wrapper-3Njo_c, .wrapper-3NnKdC.folderopen .wrapper-3Njo_c {
-  overflow: visible !important;
-  width: 170px!important;
-  min-width: 10px!important;
-  /* transition: all .1s; */
-}
-
-.layer-3QrUeG>.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6>.wrapper-3NnKdC.folderopen {
-  overflow: visible !important;
-  width: 114.5px;
-  min-width: 114.5px;
-  /* transition: all .1s; */
-}
-
-.foldercontent {
-  animation: SFA .3s 1 linear;
-}
-
-.folderclosing>div>div>div>.foldercontent {
-  animation: SFC .3s 1 linear;
-  /* transition: none !important; */
-}
-
-.foldercontentclosed {
-  opacity: 0;
-  /* transition: all 500ms; */
-}
-
-.foldercontentopen {
-  opacity: 1;
-  /* transition: all 500ms; */
-}
-
-/* Support For Server Folders 2 */
 
 /* Support For Repo Plugins */
 
@@ -4386,27 +4286,6 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
-/* Credit to MasicoreLord#5338 (197435711476072449) */
-.wrapper-3NnKdC.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen>div {
-  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-}
-
-.foldercontentopen>.wrapper-3Njo_c {
-  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-  padding-left: 5px;
-}
-
-.foldercontent {
-  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-  display: flex;
-  flex-flow: row wrap;
-  padding-left: 0;
-  align-content: flex-start;
-  justify-content: center;
-}
 
 .wrapper-3NnKdC {
   width: calc(var(--Guild-Columns) * 60px + 2px)!important;
