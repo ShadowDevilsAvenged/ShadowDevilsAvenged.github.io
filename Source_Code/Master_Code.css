@@ -4567,7 +4567,7 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
 }
 
 .theme-light .layers-3iHuyZ:before {
-  content: "Light Theme is NOT supported, \a Please switch to Dark Theme. \a [Settings > Appearance > Theme > Dark]";
+  content: "Light Theme is NOT supported, \a Please to Dark Theme. \a [Settings > Appearance > Theme > Dark]";
   background: var(--Background-Colour);
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
@@ -5852,7 +5852,7 @@ html .upperBadge-2XnnGB.count {
   margin: 2px;
 }
 
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-{
   background-color: var(--Secondary-Main-Colour);
 }
 
@@ -6928,7 +6928,7 @@ body .ace_closeButton:hover::before {
 
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online-mobile)"] {
-  fill: rgb(67, 181, 129);
+  fill: rgb(59, 165, 92);
 }
 
 [mask="url(#svg-mask-status-idle)"] {
@@ -6976,7 +6976,7 @@ body .ace_closeButton:hover::before {
 [role="img"][aria-label*="オンライン"] * [fill="transparent"],
 [role="img"][aria-label*="線上"] * [fill="transparent"],
 [role="img"][aria-label*="온라인"] * [fill="transparent"] {
-  fill: rgb(67, 181, 129);
+  fill: rgb(59, 165, 92);
   mask: url(#svg-mask-status-online);
 }
 
@@ -7675,13 +7675,13 @@ fill: var(--Main-Colour) !important;
   border-color: var(--Secondary-Main-Colour);
 }
 
-[style="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"]{
+[style="background-color: rgb(59, 165, 92); color: rgb(255, 255, 255);"]{
   background-color: var(--Secondary-Background-Colour)!important;
   color: var(--Secondary-Main-Colour)!important;
   border: 1px solid var(--Secondary-Main-Colour);
 }
 
-[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"]{
+[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(59, 165, 92);"]{
   background-color: var(--Background-Colour)!important;
   color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour);
@@ -8287,6 +8287,12 @@ background-color: var(--Main-Colour);
   overflow: visible;
 }
 
+.bd-addon-list .bd-addon-header {
+  color: white;
+  background: transparent;
+  overflow: visible
+}
+
 .reaction-1hd86g.reactionMe-wv5HKu {
   background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
@@ -8830,7 +8836,7 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
   background: var(--Secondary-Background-Colour);
 }
 
-.wrapper-3WhCwL:hover {
+.theme-dark .wrapper-3WhCwL:hover {
   color: var(--Main-Colour)!important;
 }
 
@@ -10537,12 +10543,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   color: var(--Main-Colour);
 }
 
-.wrapper-3WhCwL {
+.theme-dark .wrapper-3WhCwL {
 	color: var(--Main-Colour);
 	background: transparent;
 }
 
-.wrapper-3WhCwL:hover {
+.theme-dark .wrapper-3WhCwL:hover {
 	color: var(--Main-Colour);
 	background: transparent;
   box-shadow: 0 0 4px 0 inset var(--Main-Colour);
