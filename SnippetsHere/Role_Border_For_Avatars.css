@@ -371,3 +371,9 @@
 .preview-QJ3OG3 .message-2CShn3 {
   margin-left: 14px;
 }
+
+.avatar-2e8lTP.avatar-hF52Er .avatar-2e8lTP {
+  position: absolute !important;
+  z-index: 1;
+  transform: translate(-17px, 0) !important;
+}
