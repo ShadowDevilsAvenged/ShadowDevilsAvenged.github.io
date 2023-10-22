@@ -1,7 +1,7 @@
 /* Role Border Color depends on role */
 
 /* For Forums Here */
-.container-3XgAHv .message-2CShn3 .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::before {
+.container-3s2w-i .message-2CShn3 .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::before {
   transform: translate(-60px, 4px);
   content: '';
   display: block;
@@ -13,21 +13,21 @@
   pointer-events: none;
 }
 
-.container-3XgAHv .message-2CShn3 {
+.container-3s2w-i .message-2CShn3 {
   margin-left: 66px;
   padding: 0 0 20px 4px;
 }
 
-.container-3XgAHv .message-2CShn3.compact-2Nkcau .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::before {
+.container-3s2w-i .message-2CShn3.compact-2Nkcau .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::before {
   display: none;
 }
 
-.container-3XgAHv .message-2CShn3.compact-2Nkcau {
+.container-3s2w-i .message-2CShn3.compact-2Nkcau {
   margin-left: 66px;
   padding: 0 0 6px 0;
 }
 
-.container-3XgAHv .message-2CShn3 .avatar-2e8lTP + .avatarDecoration-34OC0G {
+.container-3s2w-i .message-2CShn3 .avatar-2e8lTP + .avatarDecoration-34OC0G {
   transform: translate(-68px, 6px);
 }
 
@@ -42,11 +42,11 @@
   margin-right: unset;
 }
 
-.app-2CXKsg .chat-2ZfjoI .messagesWrapper-RpOMA3 .message-2CShn3:last-of-type {
+.app-2CXKsg .chat-9g_3Xj .messagesWrapper-RpOMA3 .message-2CShn3:last-of-type {
   padding: 0 0 0 4px;
 }
 
-.app-2CXKsg .chat-2ZfjoI .messagesWrapper-RpOMA3 .message-2CShn3.compact-2Nkcau {
+.app-2CXKsg .chat-9g_3Xj .messagesWrapper-RpOMA3 .message-2CShn3.compact-2Nkcau {
   padding: 0 0 0 4px;
 }
 
