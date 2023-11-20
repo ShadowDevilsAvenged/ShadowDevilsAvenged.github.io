@@ -1,0 +1,84 @@
+/* Pop by UltraStorm[intergrav] (edited) */
+:root {
+/* Hover Scale */
+
+    --HoverScale: 1.025;
+
+/* Transition Time */
+
+    --TransitionTime: 0.25s;
+
+/* Ease Type */
+
+    --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+
+}
+
+/* ---- Hover Animations ---- */
+/* Buttons */ .sizeSmall__71a98:hover,
+/* Settings List Items */ .side_b4b3f6 .item__48dda:hover,
+/* Stage discovery */ .container__515b3:hover,
+/* Active now card */ .itemCard__1f162:hover,
+/* Activity button */ .lookFilled__19298.colorPrimary__6ed40:hover,
+/* Friendlist */ .peopleListItem_d14722:hover,
+/* Direct Message List Items */ .channel_c21703:hover,
+/* Member List Items */ .member_aa4760:hover,
+/* Context Menu Items */ .item__183e8:hover:not([id="account-info"], [id="account-avatar"]),
+/* Message Profile Pictures */ .avatar__08316.clickable_d866f1:hover,
+/* Topbar Items */ .toolbar__88c63 > .iconWrapper_af9215:hover > svg > path, .toolbar__88c63 > .inviteToolbar-2k2nqz > .iconWrapper_af9215:hover > svg > path, .toolbar__88c63 > a > .iconWrapper_af9215:hover > svg > path,
+/* Server Channels */ .link__95dc0:hover,
+/* Nitro Tab Feature Cards */ .feature-2IUcBI:hover,
+/* Quick Switcher List Items */ .result__25f11[aria-selected=true],
+/* Quick Switcher Search Box */ .input__848cd:hover,
+/* Sidebar in Discover */ .categoryItem_b1be5c:hover,
+/* Discovery Tab List Items */ .categoryItem-3zFJns:hover,
+/* Discovery Tab Cards */ .card__86773:hover,
+/* Message Options */ .button_d553e5:hover > svg > path,
+/* Gift Nitro */ .giftAction-yhDLaW:hover,
+/* Call users */ .listDefault__205d0 .clickable__137bc:hover .content_b60865,
+/* User bar */ .panels__58331 button.button__4f306:hover path,
+/* Activity Button */ .activity-1gTu-L [type="button"]:hover, .userProfileActivity-sal5no [type="button"]:hover, .activity-E0U09Y [type="button"]:hover
+{
+    transform-origin: center;
+    transform: scale(var(--HoverScale));
+    box-shadow: var(--elevation-high);
+}
+
+/* ---- Static Animations ---- */
+/* Buttons */ .sizeSmall__71a98,
+/* Settings List Items */ .side_b4b3f6 .item__48dda,
+/* Stage discovery */ .container__515b3,
+/* Active now card */ .itemCard__1f162,
+/* Activity button */ .lookFilled__19298.colorPrimary__6ed40,
+/* Friendlist */ .peopleListItem_d14722,
+/* Direct Message List Items */ .channel_c21703,
+/* Member List Items */ .member_aa4760,
+/* Context Menu Items */ .item__183e8:not([id="account-info"], [id="account-avatar"]),
+/* Message Profile Pictures */ .avatar__08316.clickable_d866f1,
+/* Topbar Items */ .toolbar__88c63 > .iconWrapper_af9215 > svg > path, .toolbar__88c63 > .inviteToolbar-2k2nqz > .iconWrapper_af9215 > svg > path, .toolbar__88c63 > a > .iconWrapper_af9215 > svg > path,
+/* Server Channels */ .link__95dc0,
+/* Nitro Tab Feature Cards */ .feature-2IUcBI,
+/* Quick Switcher List Items */ .result__25f11[aria-selected=false],
+/* Quick Switcher Search Box */ .input__848cd,
+/* Sidebar in Discover */ .categoryItem_b1be5c,
+/* Discovery Tab List Items */ .categoryItem-3zFJns,
+/* Discovery Tab Cards */ .card__86773,
+/* Message Options */ .button_d553e5 > svg > path,
+/* Gift Nitro */ .giftAction-yhDLaW,
+/* Call users */ .content_b60865,
+/* User bar */ .panels__58331 button.button__4f306 path,
+/* Activity Button */ .activity-1gTu-L [type="button"], .userProfileActivity-sal5no [type="button"], .activity-E0U09Y [type="button"]
+{
+    transition: var(--EaseType) var(--TransitionTime);
+    box-shadow: none;
+}
+
+/* ---- When Active ---- */
+/* Friend list */ .peopleListItem_d14722.active__6b8ff,
+/* Active now */ .outer_a41cf3.active__76f42,
+/* Memberlist */ .member_aa4760.container__4f20e.selected__9800b
+{
+    transform-origin: center;
+    transform: scale(var(--HoverScale));
+    box-shadow: var(--elevation-high);
+}

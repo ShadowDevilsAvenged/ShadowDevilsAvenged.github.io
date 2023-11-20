@@ -1,0 +1,38 @@
+/* Background Image Transparency */
+.container__11d72.themed_b152d4,
+.nowPlayingColumn_f5023f,
+.container__0a6a9,
+.chatContent__5dca8,
+.container_b2ce9c,
+.member_b44d5d,
+.members__9f47b {
+    background: transparent;
+}
+.container__5c7e7,
+.chat__52833 {
+    background: var(--background-transparent);
+}
+
+/* Background Image */
+.layer__2efaa.baseLayer__8fda3::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(var(--bg-blur));
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+}
+.container__037ed::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--primary-600);
+    opacity: var(--opacity);
+}
