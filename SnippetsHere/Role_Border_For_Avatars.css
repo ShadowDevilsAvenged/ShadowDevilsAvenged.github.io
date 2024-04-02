@@ -1,7 +1,7 @@
 /* Role Border Color depends on role */
 
 /* For Forums Here */
-.container_def45c .message__80c10 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.container__694a1 .message_ccca67 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   transform: translate(-60px, 4px);
   content: '';
   display: block;
@@ -13,58 +13,58 @@
   pointer-events: none;
 }
 
-.container_def45c .message__80c10 {
+.container__694a1 .message_ccca67 {
   margin-left: 66px;
   padding: 0 0 20px 4px;
 }
 
-.container_def45c .message__80c10.compact__54ecc .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.container__694a1 .message_ccca67.compact_eda3c8 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   display: none;
 }
 
-.container_def45c .message__80c10.compact__54ecc {
+.container__694a1 .message_ccca67.compact_eda3c8 {
   margin-left: 66px;
   padding: 0 0 6px 0;
 }
 
-.container_def45c .message__80c10 .avatar__08316 + .avatarDecoration__14b3c {
+.container__694a1 .message_ccca67 .avatar__08316 + .avatarDecoration__8a0c2 {
   transform: translate(-68px, 6px);
 }
 
 /* *************************** */
 
-.message__80c10 {
+.message_ccca67 {
   padding: 20px 0 20px 4px;
   margin-left: 66px;
 }
 
-.message__80c10.compact__54ecc {
+.message_ccca67.compact_eda3c8 {
   margin-right: unset;
 }
 
-.app_de4237 .chat__52833 .messagesWrapper_ea2b0b .message__80c10:last-of-type {
+.app_de4237 .chat__52833 .messagesWrapper_add28b .message_ccca67:last-of-type {
   padding: 0 0 0 4px;
 }
 
-.app_de4237 .chat__52833 .messagesWrapper_ea2b0b .message__80c10.compact__54ecc {
+.app_de4237 .chat__52833 .messagesWrapper_add28b .message_ccca67.compact_eda3c8 {
   padding: 0 0 0 4px;
 }
 
-.message__80c10 .avatar__08316 {
+.message_ccca67 .avatar__08316 {
   z-index: 1;
   transform: translate(-68px, 6px) !important;
 }
 
 
-.message__80c10 .avatar__08316 + .avatarDecoration__14b3c {
+.message_ccca67 .avatar__08316 + .avatarDecoration__8a0c2 {
   transform: translate(-68px, 6px) !important;
 }
 
-.zalgo__39311.cozy_f5c119 .header__39b23 {
+.zalgo__39311.cozy_f5c119 .header__6a14d {
   overflow: visible;
 }
 
-.message__80c10 .username_d30d99::before {
+.message_ccca67 .username__0b0e7::before {
   transform: translate(-60px, 4px) !important;
   content: '';
   display: block;
@@ -76,22 +76,22 @@
   pointer-events: none;
 }
 
-.message__80c10.compact__54ecc .username_d30d99::before {
+.message_ccca67.compact_eda3c8 .username__0b0e7::before {
   display: none;
 }
 
-.mentioned__58017 {
+.mentioned_fa6fd2 {
   padding-left: 14px !important;
   padding-top: 12px !important;
 }
 
-.mentioned__58017.compact__54ecc {
+.mentioned_fa6fd2.compact_eda3c8 {
   padding-left: 5rem !important;
   padding-top: unset !important;
   margin-left: 0;
 }
 
-.mentioned__58017 .username_d30d99::before {
+.mentioned_fa6fd2 .username__0b0e7::before {
   transform: translate(-70px, 4px) !important;
   content: '';
   display: block;
@@ -103,34 +103,34 @@
   pointer-events: none;
 }
 
-.mentioned__58017.compact__54ecc .username_d30d99::before {
+.mentioned_fa6fd2.compact_eda3c8 .username__0b0e7::before {
   display: none;
 }
 
-.mentioned__58017 .repliedMessage_e2bf4a:before {
+.mentioned_fa6fd2 .repliedMessage__636d2:before {
   left: -45px;
 }
 
-.mentioned__58017.compact__54ecc .repliedMessage_e2bf4a:before {
+.mentioned_fa6fd2.compact_eda3c8 .repliedMessage__636d2:before {
   right: calc(100% - .625rem);
 }
 
 
 /* For replys */
-.replyAvatar_cea07c {
+.replyAvatar__4ba85 {
   z-index: 1;
 }
 
-.zalgo__39311.cozy_f5c119 .header__39b23 {
+.zalgo__39311.cozy_f5c119 .header__6a14d {
   overflow: visible;
 }
 
-.repliedMessage_e2bf4a .username_d30d99 {
+.repliedMessage__636d2 .username__0b0e7 {
   position: relative;
   overflow: visible;
 }
 
-.repliedMessage_e2bf4a .username_d30d99::before {
+.repliedMessage__636d2 .username__0b0e7::before {
   transform: translate(-22px, -1px) !important;
   content: '';
   display: block;
@@ -142,32 +142,32 @@
   pointer-events: none;
 }
 
-.compact__54ecc .repliedMessage_e2bf4a .username_d30d99 {
+.compact_eda3c8 .repliedMessage__636d2 .username__0b0e7 {
   position: unset;
   overflow: unset;
 }
 
-.compact__54ecc .repliedMessage_e2bf4a .username_d30d99::before {
+.compact_eda3c8 .repliedMessage__636d2 .username__0b0e7::before {
   display: none;
 }
 
-.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
   position: absolute;
   left: -70px;
   z-index: 1;
 }
 
 /* For Unread/Mentions Option */
-.messages_f7999e .avatar__08316 {
+.messages__1aaa1 .avatar__08316 {
   z-index: 1;
 }
 
-.messages_f7999e .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.messages__1aaa1 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: relative;
   overflow: visible;
 }
 
-.messages_f7999e .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.messages__1aaa1 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   transform: translate(-59.5px, -2px);
   content: '';
   display: block;
@@ -179,29 +179,29 @@
   pointer-events: none;
 }
 
-.messages_f7999e .compact__54ecc .avatar__08316 {
+.messages__1aaa1 .compact_eda3c8 .avatar__08316 {
   z-index: unset;
 }
 
-.messages_f7999e .compact__54ecc .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.messages__1aaa1 .compact_eda3c8 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: unset;
   overflow: unset;
 }
 
-.messages_f7999e .compact__54ecc .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.messages__1aaa1 .compact_eda3c8 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   display: none;
 }
 
-.messageContainer_aa7d14 .avatar__08316 {
+.messageContainer_cb3d47 .avatar__08316 {
   z-index: 1;
 }
 
-.messageContainer_aa7d14 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.messageContainer_cb3d47 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: relative;
   overflow: visible;
 }
 
-.messageContainer_aa7d14 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.messageContainer_cb3d47 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   transform: translate(-59.5px, -2px);
   content: '';
   display: block;
@@ -213,29 +213,29 @@
   pointer-events: none;
 }
 
-.messageContainer_aa7d14 .compact__54ecc .avatar__08316 {
+.messageContainer_cb3d47 .compact_eda3c8 .avatar__08316 {
   z-index: unset;
 }
 
-.messageContainer_aa7d14 .compact__54ecc .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.messageContainer_cb3d47 .compact_eda3c8 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: unset;
   overflow: unset;
 }
 
-.messageContainer_aa7d14 .compact__54ecc .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.messageContainer_cb3d47 .compact_eda3c8 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   display: none;
 }
 
-.searchResult_dcd237 .avatar__08316 {
+.searchResult__00093 .avatar__08316 {
   z-index: 1;
 }
 
-.searchResult_dcd237 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.searchResult__00093 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: relative;
   overflow: visible;
 }
 
-.searchResult_dcd237 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.searchResult__00093 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   transform: translate(-60px, -2px);
   content: '';
   display: block;
@@ -247,16 +247,16 @@
   pointer-events: none;
 }
 
-.messageGroupWrapper_f8c6e9 .avatar__08316 {
+.messageGroupWrapper__1fce2 .avatar__08316 {
   z-index: 1;
 }
 
-.messageGroupWrapper_f8c6e9 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99) {
+.messageGroupWrapper__1fce2 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7) {
   position: relative;
   overflow: visible;
 }
 
-.messageGroupWrapper_f8c6e9 .username_d30d99:not(.repliedMessage_e2bf4a .username_d30d99)::before {
+.messageGroupWrapper__1fce2 .username__0b0e7:not(.repliedMessage__636d2 .username__0b0e7)::before {
   transform: translate(-60px, -2px);
   content: '';
   display: block;
@@ -269,15 +269,15 @@
 }
 
 /* Home Screen Avatars */
-.card-3x20HF .avatar__08316 {
+.card_d4f6c7 .avatar__08316 {
   z-index: 1;
 }
 
-.card-3x20HF .username_d30d99:not(.conversationMessage-hy6ISK .username_d30d99) {
+.card_d4f6c7 .username__0b0e7:not(.conversationMessage__3c425 .username__0b0e7) {
   position: relative;
 }
 
-.card-3x20HF .username_d30d99:not(.conversationMessage-hy6ISK .username_d30d99)::before {
+.card_d4f6c7 .username__0b0e7:not(.conversationMessage__3c425 .username__0b0e7)::before {
   transform: translate(-60px, -2px) !important;
   content: '';
   display: block;
@@ -289,11 +289,11 @@
   pointer-events: none;
 }
 
-.conversationMessage-hy6ISK .username_d30d99 {
+.conversationMessage__3c425 .username__0b0e7 {
   position: relative;
 }
 
-.conversationMessage-hy6ISK .username_d30d99::before {
+.conversationMessage__3c425 .username__0b0e7::before {
   transform: translate(-2px, -21px) !important;
   content: '';
   display: block;
@@ -305,21 +305,21 @@
   pointer-events: none;
 }
 
-.card-3x20HF .mentioned__58017 {
+.card_d4f6c7 .mentioned_fa6fd2 {
   padding-left: 72px !important;
   padding-top: 12px !important;
 }
 
 /* Home Screen Reply Avatars */
-.card-3x20HF .replyAvatar_cea07c .avatar__08316 {
+.card_d4f6c7 .replyAvatar__4ba85 .avatar__08316 {
   z-index: 1;
 }
 
-.card-3x20HF .repliedMessage_e2bf4a .username_d30d99:not(.conversationMessage-hy6ISK .username_d30d99) {
+.card_d4f6c7 .repliedMessage__636d2 .username__0b0e7:not(.conversationMessage__3c425 .username__0b0e7) {
   position: relative;
 }
 
-.card-3x20HF .repliedMessage_e2bf4a .username_d30d99:not(.conversationMessage-hy6ISK .username_d30d99)::before {
+.card_d4f6c7 .repliedMessage__636d2 .username__0b0e7:not(.conversationMessage__3c425 .username__0b0e7)::before {
   transform: translate(-23px, -2px) !important;
   content: '';
   display: block;
@@ -333,13 +333,13 @@
 
 
 /* We don't need that much space */
-.preview_f42b5d .message__80c10.compact__54ecc,
-.preview_a8dd8d .message__80c10.compact__54ecc {
+.preview__30ef4 .message_ccca67.compact_eda3c8,
+.preview__22e05 .message_ccca67.compact_eda3c8 {
   margin-left: 0;
 }
 
-.preview_a8dd8d .username_d30d99::before,
-.preview_f42b5d .username_d30d99::before {
+.preview__22e05 .username__0b0e7::before,
+.preview__30ef4 .username__0b0e7::before {
   transform: translate(-62px, -3px) !important;
   content: '';
   display: block;
@@ -351,8 +351,8 @@
   pointer-events: none;
 }
 
-.preview_a8dd8d .message__80c10 .avatar__08316,
-.preview_f42b5d .message__80c10 .avatar__08316 {
+.preview__22e05 .message_ccca67 .avatar__08316,
+.preview__30ef4 .message_ccca67 .avatar__08316 {
   transform: translate(-3px, -2px) !important;
   content: '';
   display: block;
@@ -364,11 +364,11 @@
   pointer-events: none;
 }
 
-.preview_f42b5d .message__80c10 {
+.preview__30ef4 .message_ccca67 {
   margin-left: -10px;
 }
 
-.preview_a8dd8d .message__80c10 {
+.preview__22e05 .message_ccca67 {
   margin-left: 14px;
 }
 

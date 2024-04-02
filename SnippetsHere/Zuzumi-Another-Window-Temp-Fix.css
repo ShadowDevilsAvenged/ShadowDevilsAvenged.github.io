@@ -1,15 +1,15 @@
 /* Like Another Window */
-#app-mount .withFrame__485f4 {
+#app-mount .withFrame__5e49e {
     margin: 24px 24px 0;
 }
-#app-mount .withFrame__485f4::after {
+#app-mount .withFrame__5e49e::after {
     top: calc(30px + var(--border-width));
     width: calc((100% - var(--border-width)*2) - 24px*2);
 }
-#app-mount .layers_a23c37 > .layer__2efaa {
+#app-mount .layers_a23c37 > .layer_f7d46a {
     margin: 0 24px 24px;
 }
-#app-mount .layers_a23c37 > .layer__2efaa {
+#app-mount .layers_a23c37 > .layer_f7d46a {
     box-shadow: var(--elevation-high);
 }
 
@@ -21,7 +21,7 @@
     box-shadow: none !important;
 }
 
-#app-mount .typeMacOS__496b0 /* MacOS window */ {
+#app-mount .typeMacOS_cacc59 /* MacOS window */ {
     margin-top: 24px;
     margin-left: 24px;
     border-top-left-radius: var(--round-corners);
@@ -29,7 +29,7 @@
     width: calc(100% - (48px + var(--border-width)*2));
 }
 
-.platform-win .container__4bde3 /* Did You Know? Screen */ {
+.platform-win .container__827e6 /* Did You Know? Screen */ {
     left: var(--border-width);
     width: calc((100% - var(--border-width)*2) - 24px*2);
     height: calc((100% - var(--border-width)) - 24px);
