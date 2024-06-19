@@ -1,9 +1,9 @@
 /* Background Animation */
-div#app-mount.appMount_ea7e65 {
+#app-mount.appMount_ea7e65 {
     background-size: 200%;
 }
-.app-focused.full-motion div#app-mount.appMount_ea7e65 {
-    animation: Gradient 9s ease infinite;
+#app-mount.appMount_ea7e65 {
+    animation: Gradient 5s ease infinite;
 }
 @keyframes Gradient {
     0% {
