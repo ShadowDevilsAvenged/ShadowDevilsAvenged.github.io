@@ -708,51 +708,51 @@ button.button_f67531.enabled_f67531:hover {
     border: none;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__header,
-#app-mount .calendarPicker__47c85 .react-datepicker {
+#app-mount .calendarPicker_be05cd .react-datepicker__header,
+#app-mount .calendarPicker_be05cd .react-datepicker {
     background-color: transparent;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__current-month {
+#app-mount .calendarPicker_be05cd .react-datepicker__current-month {
     text-align: start;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__navigation.react-datepicker__navigation--next,
-#app-mount .calendarPicker__47c85 .react-datepicker__navigation.react-datepicker__navigation--previous {
+#app-mount .calendarPicker_be05cd .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .calendarPicker_be05cd .react-datepicker__navigation.react-datepicker__navigation--previous {
     border: none;
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__navigation.react-datepicker__navigation--previous {
+#app-mount .calendarPicker_be05cd .react-datepicker__navigation.react-datepicker__navigation--previous {
     transform: rotate(-90deg);
     margin-left: calc(100% - 84px);
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__navigation.react-datepicker__navigation--next {
+#app-mount .calendarPicker_be05cd .react-datepicker__navigation.react-datepicker__navigation--next {
     transform: rotate(90deg);
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__day {
+#app-mount .calendarPicker_be05cd .react-datepicker__day {
     background-color: transparent;
     border-radius: 50%;
     border: none;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__day:hover {
+#app-mount .calendarPicker_be05cd .react-datepicker__day:hover {
     background-color: var(--background-modifier-hover);
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected {
+#app-mount .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected {
     background-color: var(--brand-experiment);
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected:hover {
+#app-mount .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:hover {
     background-color: var(--brand-experiment-530);
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected:after {
+#app-mount .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:after {
     display: none;
 }
 
-.theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected {
+.theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected {
     color: #000;
 }
 
-.theme-light .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected {
+.theme-light .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected {
     color: #fff;
 }
 
@@ -794,7 +794,8 @@ button.button_f67531.enabled_f67531:hover {
     background-color: var(--channeltextarea-background);
 }
 
-#app-mount .form_a7d72e:before {
+#app-mount .form_a7d72e:before,
+.theme-dark .form_a7d72e:after {
     background: transparent;
 }
 
@@ -1008,20 +1009,20 @@ button.button_f67531.enabled_f67531:hover {
   
     --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
 }
-.role_f9575e {
+.role_e4010c {
     transform: translate(0);
     border: 0;
     border-radius: var(--roles-roundness-calc);
 }
-.role_f9575e .roleRemoveIcon_e4010c {
+.role_e4010c .roleRemoveIcon_e4010c {
     margin: 0;
     left: unset;
     transform: translate(50%,-50%);
 }
-.role_f9575e .roleRemoveButton_e4010c {
+.role_e4010c .roleRemoveButton_e4010c {
     position: static
 }
-.role_f9575e .roleCircle_a26d7b:before {
+.role_e4010c .roleCircle_a26d7b:before {
     content: '';
     top: 0;left: 0;
     z-index: -1;
@@ -1035,6 +1036,34 @@ button.button_f67531.enabled_f67531:hover {
     -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
     -webkit-mask-composite: xor;
 }
+
+.role_f9575e {
+    transform: translate(0);
+    border: 0;
+    border-radius: var(--roles-roundness-calc);
+}
+  .role_f9575e .roleRemoveIcon_f9575e {
+    margin: 0;
+    left: unset;
+    transform: translate(16%, -48%);
+  }
+  .role_f9575e .roleRemoveButton_f9575e {
+    position: static;
+  }
+  .role_f9575e .roleCircle_f9575e:after {
+    content: '';
+    top: 0;left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    background: inherit;
+    border-radius: var(--roles-roundness-calc);
+    border: 2px solid transparent;
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+  }
 
 /* Big Profile */
 .userProfileModalOuter_c69a7b.userProfileOuter_c69a7b {
@@ -1096,7 +1125,8 @@ button.button_f67531.enabled_f67531:hover {
 
 .profileBadges_f89da9,
 .badgeList_b69b77,
-.badgeList_ec3b75 {
+.badgeList_ec3b75,
+#app-mount .container_e5a42d {
     border-radius: 4px;
     filter: brightness(1.08) drop-shadow(0 0 4px rgba(0, 0, 0, 0.18));
 }
@@ -1199,7 +1229,7 @@ button.button_f67531.enabled_f67531:hover {
     position: relative;
 }
 
-.tabBarContainer_b9fccc {
+.tabBar_c1519f {
     margin-top: 1px;
 }
 

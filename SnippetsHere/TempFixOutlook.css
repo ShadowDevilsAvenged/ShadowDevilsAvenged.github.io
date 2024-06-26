@@ -720,7 +720,7 @@
   max-width: 100%;
 }
 
-.header_fd6364 .text-md-semibold__79164 {
+.header_fd6364 .text-md\/semibold_dc00ef {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -1264,7 +1264,8 @@
   border-top: 1px solid var(--background-tertiary);
 }
 
-.form_a7d72e:before {
+.form_a7d72e:before,
+.theme-dark .form_a7d72e:after {
   display: none;
 }
 
@@ -1564,7 +1565,7 @@
   margin: 16px;
 }
 
-.quickSelect__540d0 {
+.quickSelect_abbf45 {
   line-height: 20px;
 }
 
@@ -1816,7 +1817,7 @@
   height: 32px;
 }
 
-.form-25Aujy .submitButton-3B-dZd .text-md-semibold__79164 {
+.form-25Aujy .submitButton-3B-dZd .text-md\/semibold_dc00ef {
   font-size: 14px;
 }
 
@@ -2666,7 +2667,7 @@ body #app-mount .layer_d4b6c5  ~ .layer_d4b6c5  .sidebar_c25c6d {
 }
 
 .text-md-medium_b12de1,
-.text-md-normal__6a4eb {
+.text-md\/normal_dc00ef {
   font-size: 14px;
   line-height: 1.5;
 }
@@ -2852,7 +2853,7 @@ body #app-mount .layer_d4b6c5  ~ .layer_d4b6c5  .sidebar_c25c6d {
   font-weight: 600;
 }
 
-.tabItemSelected_a18ec1 .text-sm-medium_bc6ffc {
+.tabItemSelected_a18ec1 .text-sm\/medium_dc00ef {
   font-weight: 600;
 }
 
@@ -3565,25 +3566,25 @@ body #app-mount .layer_d4b6c5  ~ .layer_d4b6c5  .sidebar_c25c6d {
   background: var(--background-modifier-active);
 }
 
-.calendarPicker__47c85 .react-datepicker__current-month {
+.calendarPicker_be05cd .react-datepicker__current-month {
   border-bottom: none;
   font-size: 14px;
   text-transform: capitalize;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__day {
+#app-mount .calendarPicker_be05cd .react-datepicker__day {
   border: none;
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):hover {
+#app-mount .calendarPicker_be05cd .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):hover {
   background: var(--background-modifier-hover);
 }
 
-#app-mount .calendarPicker__47c85 .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):active {
+#app-mount .calendarPicker_be05cd .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):active {
   background: var(--background-modifier-active);
 }
 
-.calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--keyboard-selected {
+.calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--keyboard-selected {
   color: white;
 }
 
