@@ -140,6 +140,28 @@
     --text-link-low-saturation: var(--blue-530);
 }
 
+/* Old Class: .container_e44302.themed_e44302 */ .container_fc4f04.themed_fc4f04 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#app-mount /* Old Class: .icon_e44302 */ .icon_fc4f04 {
+    color: white;
+}
+
+#app-mount /* Old Class: .children_e44302:after */ .children_fc4f04:after {
+    background: transparent;
+}
+
+.chat_a7d72e /* Old Class:.children_e44302 */ .children_fc4f04:not(/* Old Class: .chatSidebarOpen_d880dc .children_e44302 */ .chatSidebarOpen_d880dc .children_fc4f04, /* Old Class: .controlSection_dd069c .children_e44302 */ .controlSection_dd069c .children_fc4f04) {
+    margin-left: 242px;
+}
+.chat_a7d72e /* Old Class: .children_e44302 */ .children_fc4f04:not(/* Old Class: .chatSidebarOpen_d880dc .children_e44302 */ .chatSidebarOpen_d880dc .children_fc4f04, /* Old Class: .controlSection_dd069c .children_e44302 */ .controlSection_dd069c .children_fc4f04)::before {
+    content: "";
+    width: 1px;
+    height: 26px;
+    background-color: var(--background-modifier-accent);
+}
+
 /* All App */
 .withFrame_a934d8 {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
@@ -799,7 +821,7 @@ button.button_f67531.enabled_f67531:hover {
     background: transparent;
 }
 
-.theme-dark .textArea_d0696b {
+.theme-dark .textArea_bdf0de {
     font-weight: 500;
     color: var(--text-color);
 }
@@ -814,12 +836,12 @@ button.button_f67531.enabled_f67531:hover {
     background: var(--brand-experiment-15a);
 }
 
-.theme-dark .channelTextArea_d0696b .attachButtonInner_f298d4 path, 
-.theme-dark .channelTextArea_d0696b .buttonWrapper_cecf00 path {
+.theme-dark .channelTextArea_bdf0de .attachButtonInner_f298d4 path, 
+.theme-dark .channelTextArea_bdf0de .buttonWrapper_cecf00 path {
     fill: var(--icon-color);
 }
 
-#app-mount .form_a7d72e .scrollableContainer_d0696b {
+#app-mount .form_a7d72e .scrollableContainer_bdf0de {
     border-radius: 5px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -827,13 +849,13 @@ button.button_f67531.enabled_f67531:hover {
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
-#app-mount .form_a7d72e:focus-within .scrollableContainer_d0696b {
+#app-mount .form_a7d72e:focus-within .scrollableContainer_bdf0de {
     border-color: var(--bg-gradient3);
 }
-#app-mount .form_a7d72e:hover .scrollableContainer_d0696b:not(:focus-within) {
+#app-mount .form_a7d72e:hover .scrollableContainer_bdf0de:not(:focus-within) {
     border-color: var(--bg-gradient2);
 }
-#app-mount .contents_ec86aa .scrollableContainer_d0696b {
+#app-mount .contents_ec86aa .scrollableContainer_bdf0de {
     border-radius: 5px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -841,14 +863,14 @@ button.button_f67531.enabled_f67531:hover {
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
-#app-mount .contents_ec86aa:focus-within .scrollableContainer_d0696b {
+#app-mount .contents_ec86aa:focus-within .scrollableContainer_bdf0de {
     border-color: var(--bg-gradient3);
 }
-#app-mount .contents_ec86aa:hover .scrollableContainer_d0696b:not(:focus-within) {
+#app-mount .contents_ec86aa:hover .scrollableContainer_bdf0de:not(:focus-within) {
     border-color: var(--bg-gradient2);
 }
 
-.channelTextArea_a7d72e.channelTextArea_d0696b .attachedBars_d0696b {
+.channelTextArea_a7d72e.channelTextArea_bdf0de .stackedBars_bdf0de {
     margin-bottom: 4px;
     border-radius: 8px;
 }
