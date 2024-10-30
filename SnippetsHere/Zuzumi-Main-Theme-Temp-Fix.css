@@ -162,6 +162,10 @@
     background-color: var(--background-modifier-accent);
 }
 
+.scrollableContainer_bdf0de {
+   background: #FFF !important;
+}
+
 /* All App */
 .withFrame_a934d8 {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
