@@ -651,7 +651,7 @@ button.button_f67531.enabled_f67531:hover {
     fill: var(--icon-color);
 }
 
-#app-mount .form_a7d72e .scrollableContainer_d0696b,
+#app-mount .form_a7d72e .scrollableContainer_bdf0de,
 #app-mount .inner_dc0b43 {
     border-radius: 5px;
     border-bottom-right-radius: 3px;
@@ -660,16 +660,16 @@ button.button_f67531.enabled_f67531:hover {
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
-#app-mount .form_a7d72e:focus-within .scrollableContainer_d0696b,
+#app-mount .form_a7d72e:focus-within .scrollableContainer_bdf0de,
 #app-mount .inner_dc0b43:focus-within {
     border-color: var(--bg-gradient3);
 }
-#app-mount .form_a7d72e:hover .scrollableContainer_d0696b:not(:focus-within),
+#app-mount .form_a7d72e:hover .scrollableContainer_bdf0de:not(:focus-within),
 #app-mount .inner_dc0b43:hover:not(:focus-within) {
     border-color: var(--bg-gradient2);
 }
 
-#app-mount .scrollableContainer_d0696b,
+#app-mount .scrollableContainer_bdf0de,
 #app-mount .inner_dc0b43 {
     background: var(--textarea-background);
 }
@@ -904,7 +904,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 /* Backdrop */
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     opacity: 0.45 !important;
 }
 
@@ -983,7 +983,7 @@ button.button_f67531.enabled_f67531:hover {
 
 /* Speak Call */
 .avatarSpeaking_cdc675,
-.avatarSpeaking_c51b4e,
+.avatarSpeaking_d80634,
 .border_ba4b17.speaking_ba4b17 {
     box-shadow: inset 0 0 0 2px var(--brand-500), inset 0 0 0 3px var(--background-secondary);
 }
