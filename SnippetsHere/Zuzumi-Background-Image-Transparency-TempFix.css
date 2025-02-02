@@ -1,20 +1,20 @@
 /* Background Image Transparency */
-.container_e44302.themed_e44302,
-.nowPlayingColumn_c2739c,
-.container_bf550a,
-.chatContent_a7d72e,
-.container_cbd271,
-.member_cbd271,
-.members_cbd271 {
+.container__9293f.themed__9293f,
+.nowPlayingColumn__133bf,
+.container__7d20c,
+.chatContent_f75fb0,
+.container_c8ffbb,
+.member_c8ffbb,
+.members_c8ffbb {
     background: transparent !important;
 }
-.container_c2739c,
-.chat_a7d72e {
+.container__133bf,
+.chat_f75fb0 {
     background: var(--background-transparent);
 }
 
 /* Background Image */
-.layer_d4b6c5.baseLayer_d4b6c5::before {
+.layer__960e4.baseLayer__960e4::before {
     content: "";
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
     background-size: cover;
     background-position: center;
 }
-.container_a4d4d9::before {
+.container_c48ade::before {
     content: "";
     top: 0;
     left: 0;
