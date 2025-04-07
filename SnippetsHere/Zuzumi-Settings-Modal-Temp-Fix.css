@@ -116,13 +116,13 @@
     visibility: hidden;
 }
 
-.standardSidebarView__23e6b {
+.visual-refresh .standardSidebarView__23e6b {
     border: var(--border-width) solid var(--border-color);
     border-bottom-left-radius: var(--round-corners);
     border-bottom-right-radius: var(--round-corners);
     margin-top: calc(32px + var(--border-width)) !important;
 }
-.standardSidebarView__23e6b::before {
+.visual-refresh .standardSidebarView__23e6b::before {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     position: absolute !important;
     content: "";

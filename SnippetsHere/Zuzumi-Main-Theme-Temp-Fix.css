@@ -175,8 +175,8 @@
     display: none;
 }
 
-.scroller__23746,
-.container__551b0 /* Discovery */ {
+.visual-refresh .scroller__23746,
+.visual-refresh .container__551b0 /* Discovery */ {
   background: none;
 }
 .typeWindows__421ed::after {
@@ -195,7 +195,7 @@
 div#app-mount.appMount__51fd7 {
     background-image: linear-gradient(90deg, var(--bg-gradient1) 0%, var(--bg-gradient2) 50%, var(--bg-gradient3) 100%);
 }
-#app-mount .bg__960e4 {
+.visual-refresh .bg__960e4 {
     background: transparent;
 }
 #app-mount .app__160d8 {
@@ -225,7 +225,7 @@ div#app-mount.appMount__51fd7 {
     --channel-icon: hsla(0, 0%, 0%, 0.7);
 }
 
-#app-mount .wrapper_ef3116 {
+.visual-refresh .wrapper_ef3116  {
     background-color: var(--background-transparent);
 }
 
@@ -246,36 +246,36 @@ div#app-mount.appMount__51fd7 {
 }
 
 /* Server list in normal position */
-.expandedFolderBackground__48112 {
+.visual-refresh .expandedFolderBackground__48112 {
     background-color: var(--bg-transparent);
 }
 
 /* Channels and DM */
-#app-mount .privateChannels__35e86,
+.visual-refresh .privateChannels__35e86,
 #app-mount .scroller__99e7c,
 #app-mount .container__2637a {
     background: transparent;
 }
 
-#app-mount .sidebar_c48ade {
+.visual-refresh .sidebar_c48ade {
     background: var(--bg-transparent);
 }
 
-#app-mount .sidebar_c48ade:not(.sidebar_c48ade.hidden_c48ade) {
+.visual-refresh .sidebar_c48ade:not(.visual-refresh .sidebar_c48ade.hidden_c48ade) {
     width: 260px;
 }
 
-.theme-dark .chat_f75fb0:not(:has(.wrapper_cb9592.fullScreen_cb9592)),
-.theme-dark .container__133bf {
+.theme-dark .chat_f75fb0:not(:has(.visual-refresh .wrapper_cb9592.fullScreen_cb9592)),
+.theme-dark .visual-refresh .container__133bf {
     border-left: 1px solid hsla(0, 0%, 75%, 0.2);
 }
 
-.theme-light .chat_f75fb0:not(:has(.wrapper_cb9592.fullScreen_cb9592)),
-.theme-light .container__133bf {
+.theme-light .chat_f75fb0:not(:has(.visual-refresh .wrapper_cb9592.fullScreen_cb9592)),
+.theme-light .visual-refresh .container__133bf {
     border-left: 1px solid hsla(0, 0%, 15%, 0.2);
 }
 
-#app-mount .sidebar_c48ade ul.content__99f8c {
+.visual-refresh .sidebar_c48ade ul.content__99f8c {
     padding-bottom: 40px;
 }
 
@@ -290,11 +290,11 @@ div#app-mount.appMount__51fd7 {
     padding-right: 18px;
 }
 
-#app-mount .sidebar_c48ade {
+.visual-refresh .sidebar_c48ade {
     border-radius: 0;
 }
 
-.searchBar__35e86 .searchBarComponent__35e86 {
+.visual-refresh .searchBar__35e86 .searchBarComponent__35e86 {
     background-color: var(--background-transparent);
     color: var(--color-text);
 }
@@ -439,8 +439,8 @@ div#app-mount.appMount__51fd7 {
     background: transparent;
 }
 
-.searchBar__35e86,
-.tabBody__133bf:before,
+.visual-refresh .searchBar__35e86,
+.visual-refresh .tabBody__133bf:before,
 .content_f75fb0:before {
     box-shadow: none;
 }
@@ -469,20 +469,20 @@ div#app-mount.appMount__51fd7 {
     border-left: 1px solid hsla(0, 0%, 15%, 0.25);
 }
 
-.panels_c48ade > .container__37e49 {
+.visual-refresh .panels_c48ade > .container__37e49 {
     height: 60px;
     font-weight: 550;
     background: transparent;
 }
-.panels_c48ade .container_e131a9 {
+.visual-refresh .panels_c48ade .container_e131a9 {
     background: transparent;
 }
 
-.panels_c48ade > .container__37e49 > .avatarWrapper__37e49:hover {
+.visual-refresh .panels_c48ade > .container__37e49 > .avatarWrapper__37e49:hover {
     background-color: transparent;
 }
 
-.panels_c48ade > .container__37e49 > .avatarWrapper__37e49:hover foreignObject {
+.visual-refresh .panels_c48ade > .container__37e49 > .avatarWrapper__37e49:hover foreignObject {
     filter: grayscale(.6);
 }
 
@@ -490,7 +490,7 @@ div#app-mount.appMount__51fd7 {
     width: 96px;
 }
 
-button.button__67645.enabled__67645:hover {
+.visual-refresh button.button__67645.enabled__67645:hover {
     background: none;
 }
 
@@ -561,6 +561,10 @@ button.button__67645.enabled__67645:hover {
 .clickable__91a9d:hover .layout__91a9d {
     background-color: var(--member-hover);
 }
+.clickable__91a9d:hover [class*="childContainer__"],
+.selected__91a9d [class*="childContainer__"] {
+  background-color: transparent;
+}
 .selected__91a9d .layout__91a9d {
     background-color: var(--member-selected);
 }
@@ -571,7 +575,7 @@ button.button__67645.enabled__67645:hover {
     margin-right: 0;
 }
 
-.searchBar__97492 {
+#app-mount .searchBar__97492 {
     height: 38px !important;
     width: 234px !important;
     border-radius: 4px;
@@ -602,7 +606,7 @@ button.button__67645.enabled__67645:hover {
 }
 
 /* Chat Messages */
-.message__5126c {
+.visual-refresh .message__5126c {
     margin: 0 12px 0 6px;
     border-radius: 8px;
 }
@@ -718,7 +722,7 @@ button.button__67645.enabled__67645:hover {
     background-color: var(--border-color);
 }
 .chat_f75fb0.threadSidebarOpen_f75fb0,
-.container__01ae2 {
+.visual-refresh .container__01ae2 {
     border-radius: 0;
 }
 
@@ -914,12 +918,12 @@ button.button__67645.enabled__67645:hover {
 }
 
 /* Pinned Messages */
-.messagesPopoutWrap__45690 {
+.visual-refresh .messagesPopoutWrap__45690 {
     max-height: 80vh !important;
 }
 
 /* Mentions and Unreads */
-.recentMentionsPopout__95796 {
+.visual-refresh .recentMentionsPopout__95796 {
     min-width: calc(100% - 50%/2) !important;
     min-height: calc(100% - 50%/4) !important;
     max-width: calc(100% - 50%/2) !important;
@@ -933,7 +937,7 @@ button.button__67645.enabled__67645:hover {
     border-radius: var(--round-corners);
     z-index: 1;
 }
-.recentMentionsPopout__95796::before {
+.visual-refresh .recentMentionsPopout__95796::before {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     position: absolute;
     content: "";
@@ -1102,11 +1106,11 @@ button.button__67645.enabled__67645:hover {
 }
 
 
-/* Old Class: .container__9293f.themed__9293f */ .container__9293f.themed__9293f {
+/* Old Class: .visual-refresh .container__9293f.themed__9293f */ .visual-refresh .container__9293f.themed__9293f {
     background-color: rgba(0, 0, 0, .4);
 }
 
-#app-mount /* Old Class: .icon__9293f */ .icon__9293f {
+#app-mount /* Old Class: .visual-refresh #app-mount .icon__9293f */ .visual-refresh #app-mount .icon__9293f {
     color: white;
 }
 

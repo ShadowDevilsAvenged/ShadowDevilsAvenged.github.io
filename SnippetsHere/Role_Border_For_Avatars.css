@@ -1,7 +1,7 @@
 /* Role Border Color depends on role */
 
 /* For Forums Here */
-.container__01ae2 .message__5126c .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .container__01ae2 .message__5126c .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   transform: translate(-60px, 4px);
   content: '';
   display: block;
@@ -13,50 +13,50 @@
   pointer-events: none;
 }
 
-.container__01ae2 .message__5126c {
+.visual-refresh .container__01ae2 .message__5126c {
   margin-left: 66px;
   padding: 0 0 20px 4px;
 }
 
-.container__01ae2 .message__5126c.compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .container__01ae2 .message__5126c.compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   display: none;
 }
 
-.container__01ae2 .message__5126c.compact_c19a55 {
+.visual-refresh .container__01ae2 .message__5126c.compact_c19a55 {
   margin-left: 66px;
   padding: 0 0 6px 0;
 }
 
-.container__01ae2 .message__5126c .avatar_c19a55 + .avatarDecoration_c19a55 {
+.visual-refresh .container__01ae2 .message__5126c .avatar_c19a55 + .avatarDecoration_c19a55 {
   transform: translate(-68px, 6px);
 }
 
 /* *************************** */
 
-.message__5126c {
+.visual-refresh .message__5126c {
   padding: 20px 0 20px 4px;
   margin-left: 66px;
 }
 
-.message__5126c.compact_c19a55 {
+.visual-refresh .message__5126c.compact_c19a55 {
   margin-right: unset;
 }
 
-.app__160d8 .chat_f75fb0 .messagesWrapper__36d07 .message__5126c:last-of-type {
+.visual-refresh .app__160d8 .chat_f75fb0 .messagesWrapper__36d07 .message__5126c:last-of-type {
   padding: 0 0 0 4px;
 }
 
-.app__160d8 .chat_f75fb0 .messagesWrapper__36d07 .message__5126c.compact_c19a55 {
+.visual-refresh .app__160d8 .chat_f75fb0 .messagesWrapper__36d07 .message__5126c.compact_c19a55 {
   padding: 0 0 0 4px;
 }
 
-.message__5126c .avatar_c19a55 {
+.visual-refresh .message__5126c .avatar_c19a55 {
   z-index: 1;
   transform: translate(-68px, 6px) !important;
 }
 
 
-.message__5126c .avatar_c19a55 + .avatarDecoration_c19a55 {
+.visual-refresh .message__5126c .avatar_c19a55 + .avatarDecoration_c19a55 {
   transform: translate(-68px, 6px) !important;
 }
 
@@ -64,7 +64,7 @@
   overflow: visible;
 }
 
-.message__5126c .username_c19a55::before {
+.visual-refresh .message__5126c .username_c19a55::before {
   transform: translate(-60px, 4px) !important;
   content: '';
   display: block;
@@ -76,7 +76,7 @@
   pointer-events: none;
 }
 
-.message__5126c.compact_c19a55 .username_c19a55::before {
+.visual-refresh .message__5126c.compact_c19a55 .username_c19a55::before {
   display: none;
 }
 
@@ -151,23 +151,23 @@
   display: none;
 }
 
-.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
+.visual-refresh .cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
   position: absolute;
   left: -70px;
   z-index: 1;
 }
 
 /* For Unread/Mentions Option */
-.messages__1ccd1 .avatar_c19a55 {
+.visual-refresh .messages__1ccd1 .avatar_c19a55 {
   z-index: 1;
 }
 
-.messages__1ccd1 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
+.visual-refresh .messages__1ccd1 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
   position: relative;
   overflow: visible;
 }
 
-.messages__1ccd1 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .messages__1ccd1 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   transform: translate(-59.5px, -2px);
   content: '';
   display: block;
@@ -179,29 +179,29 @@
   pointer-events: none;
 }
 
-.messages__1ccd1 .compact_c19a55 .avatar_c19a55 {
+.visual-refresh .messages__1ccd1 .compact_c19a55 .avatar_c19a55 {
   z-index: unset;
 }
 
-.messages__1ccd1 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
+.visual-refresh .messages__1ccd1 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
   position: unset;
   overflow: unset;
 }
 
-.messages__1ccd1 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .messages__1ccd1 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   display: none;
 }
 
-.messageContainer__95796 .avatar_c19a55 {
+.visual-refresh .messageContainer__95796 .avatar_c19a55 {
   z-index: 1;
 }
 
-.messageContainer__95796 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
+.visual-refresh .messageContainer__95796 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
   position: relative;
   overflow: visible;
 }
 
-.messageContainer__95796 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .messageContainer__95796 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   transform: translate(-59.5px, -2px);
   content: '';
   display: block;
@@ -213,16 +213,16 @@
   pointer-events: none;
 }
 
-.messageContainer__95796 .compact_c19a55 .avatar_c19a55 {
+.visual-refresh .messageContainer__95796 .compact_c19a55 .avatar_c19a55 {
   z-index: unset;
 }
 
-.messageContainer__95796 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
+.visual-refresh .messageContainer__95796 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
   position: unset;
   overflow: unset;
 }
 
-.messageContainer__95796 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .messageContainer__95796 .compact_c19a55 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   display: none;
 }
 
@@ -247,16 +247,16 @@
   pointer-events: none;
 }
 
-.messageGroupWrapper__45690 .avatar_c19a55 {
+.visual-refresh .messageGroupWrapper__45690 .avatar_c19a55 {
   z-index: 1;
 }
 
-.messageGroupWrapper__45690 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
+.visual-refresh .messageGroupWrapper__45690 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55) {
   position: relative;
   overflow: visible;
 }
 
-.messageGroupWrapper__45690 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
+.visual-refresh .messageGroupWrapper__45690 .username_c19a55:not(.repliedMessage_c19a55 .username_c19a55)::before {
   transform: translate(-60px, -2px);
   content: '';
   display: block;
@@ -334,7 +334,7 @@
 
 /* We don't need that much space */
 .preview__3e443 .message__5126c.compact_c19a55,
-.preview__5d148 .message__5126c.compact_c19a55 {
+.visual-refresh .preview__5d148 .message__5126c.compact_c19a55 {
   margin-left: 0;
 }
 
@@ -351,7 +351,7 @@
   pointer-events: none;
 }
 
-.preview__5d148 .message__5126c .avatar_c19a55,
+.visual-refresh .preview__5d148 .message__5126c .avatar_c19a55,
 .preview__3e443 .message__5126c .avatar_c19a55 {
   transform: translate(-3px, -2px) !important;
   content: '';
@@ -368,7 +368,7 @@
   margin-left: -10px;
 }
 
-.preview__5d148 .message__5126c {
+.visual-refresh .preview__5d148 .message__5126c {
   margin-left: 14px;
 }
 

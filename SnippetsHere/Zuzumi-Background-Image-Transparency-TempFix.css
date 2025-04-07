@@ -1,14 +1,14 @@
 /* Background Image Transparency */
-.container__9293f.themed__9293f,
-.nowPlayingColumn__133bf,
-.container__7d20c,
+.visual-refresh .container__9293f.themed__9293f,
+.visual-refresh .nowPlayingColumn__133bf,
+.visual-refresh .container__7d20c,
 .chatContent_f75fb0,
 .container_c8ffbb,
 .member_c8ffbb,
 .members_c8ffbb {
     background: transparent !important;
 }
-.container__133bf,
+.visual-refresh .container__133bf,
 .chat_f75fb0 {
     background: var(--background-transparent);
 }

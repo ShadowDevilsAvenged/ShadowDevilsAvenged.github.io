@@ -18,7 +18,7 @@
 /* Buttons */ .sizeSmall__201d5:hover,
 /* Settings List Items */ .side_b3f026 .item_b3f026:hover,
 /* Stage discovery */ .container__6b38f:hover,
-/* Active now card */ .itemCard__7e549:hover,
+/* Active now card */ .visual-refresh .itemCard__7e549:hover,
 /* Activity button */ .lookFilled__201d5.colorPrimary__201d5:hover,
 /* Friendlist */ .peopleListItem_cc6179:hover,
 /* Direct Message List Items */ .channel__972a0:hover,
@@ -33,10 +33,10 @@
 /* Sidebar in Discover */ .categoryItem_c72b37:hover,
 /* Discovery Tab List Items */ .categoryItem-3zFJns:hover,
 /* Discovery Tab Cards */ .card_e90879:hover,
-/* Message Options */ .button_f7ecac:hover > svg > path,
+/* Message Options */ .visual-refresh .button_f7ecac:hover > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW:hover,
 /* Call users */ .listDefault__07f91 .clickable__07f91:hover .content__07f91,
-/* User bar */ .panels_c48ade button.button__67645:hover path,
+/* User bar */ .visual-refresh .panels_c48ade button.button__67645:hover path,
 /* Activity Button */ .activity-1gTu-L [type="button"]:hover, .userProfileActivity-sal5no [type="button"]:hover, .activity-E0U09Y [type="button"]:hover
 {
     transform-origin: center;
@@ -48,7 +48,7 @@
 /* Buttons */ .sizeSmall__201d5,
 /* Settings List Items */ .side_b3f026 .item_b3f026,
 /* Stage discovery */ .container__6b38f,
-/* Active now card */ .itemCard__7e549,
+/* Active now card */ .visual-refresh .itemCard__7e549,
 /* Activity button */ .lookFilled__201d5.colorPrimary__201d5,
 /* Friendlist */ .peopleListItem_cc6179,
 /* Direct Message List Items */ .channel__972a0,
@@ -63,10 +63,10 @@
 /* Sidebar in Discover */ .categoryItem_c72b37,
 /* Discovery Tab List Items */ .categoryItem-3zFJns,
 /* Discovery Tab Cards */ .card_e90879,
-/* Message Options */ .button_f7ecac > svg > path,
+/* Message Options */ .visual-refresh .button_f7ecac > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW,
 /* Call users */ .content__07f91,
-/* User bar */ .panels_c48ade button.button__67645 path,
+/* User bar */ .visual-refresh .panels_c48ade button.button__67645 path,
 /* Activity Button */ .activity-1gTu-L [type="button"], .userProfileActivity-sal5no [type="button"], .activity-E0U09Y [type="button"]
 {
     transition: var(--EaseType) var(--TransitionTime);
