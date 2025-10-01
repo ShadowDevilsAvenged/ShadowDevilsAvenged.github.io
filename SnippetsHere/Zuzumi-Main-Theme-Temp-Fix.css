@@ -655,8 +655,8 @@ div#app-mount.appMount__51fd7 {
     background: var(--brand-160);
 }
 
-.theme-dark .channelTextArea_f75fb0 .attachButton__0923f path, 
-.theme-dark .channelTextArea_f75fb0 .buttonWrapper__24af7 path {
+.visual-refresh .channelTextArea_f75fb0 .attachButton__0923f path, 
+.visual-refresh .channelTextArea_f75fb0 .buttonWrapper__24af7 path {
     fill: var(--icon-color);
 }
 
@@ -678,7 +678,7 @@ div#app-mount.appMount__51fd7 {
     border-color: var(--bg-gradient2);
 }
 
-#app-mount .scrollableContainer__74017,
+.visual-refresh .scrollableContainer__74017,
 #app-mount .inner_a99829 {
     background: var(--textarea-background);
 }
@@ -1127,7 +1127,7 @@ div#app-mount.appMount__51fd7 {
     height: 26px;
     background-color: var(--background-modifier-accent);
 }
-.scrollableContainer__74017 {
+.visual-refresh .scrollableContainer__74017 {
     background: var(--textarea-background);
 }
 

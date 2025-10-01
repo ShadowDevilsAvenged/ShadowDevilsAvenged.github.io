@@ -1256,7 +1256,7 @@
   background: none;
 }
 
-.scrollableContainer__74017 {
+.visual-refresh .scrollableContainer__74017 {
   border-radius: 4px;
   background: var(--bg-overlay-3, var(--gradient-kit-80a)), var(--background-secondary);
   border: 1px solid var(--background-tertiary);
@@ -1340,7 +1340,7 @@
   position: sticky;
 }
 
-.channelTextArea_f75fb0 .sansAttachButton_d0696b {
+.visual-refresh .channelTextArea_f75fb0 .sansAttachButton_d0696b {
   padding-left: 32px;
 }
 
